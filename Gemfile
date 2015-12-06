@@ -17,6 +17,9 @@ end
 
 # Use image Posts
 gem 'carrierwave'
+gem 'mini_magick', '3.8.0'
+gem 'gravtastic'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -38,6 +41,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+# Use User Authentication
+gem 'devise'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
